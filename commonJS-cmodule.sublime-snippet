@@ -1,0 +1,42 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * descriprion
+ *
+ * @module $1
+ * @main $1
+ */
+//*******************************************
+//Dependencies
+//*******************************************
+
+//*******************************************
+// Constructor & Properties
+//*******************************************
+
+/**
+ * [$2 description]
+ *
+ * @class $2
+ * 
+ * @constructor
+ */
+var ${2:${TM_FILENAME/(.+)\..+|.*/$1/:name}} = function(${3:param}$0) {
+  this.$3 = $3;
+}
+//*******************************************
+//Methods
+//*******************************************
+//$2.prototype.method = function(){
+//}
+//*******************************************
+// module export
+//*******************************************
+module.exports = $2;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cmodule</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>CommonJS Module Template</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+${TM_FILENAME/(.+)\..+|.*/$1/:name}.prototype.${2:method} = function($3){
+	$0
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mfn</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<desciption>CJS Module function</desciption>
+</snippet>
