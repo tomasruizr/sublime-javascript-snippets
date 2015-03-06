@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-util.inspect(myObject, false, null)
+util.inspect(${1:myObject}, false, null)${2}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>insp</tabTrigger>
