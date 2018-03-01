@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[${1:public }function ${2:FunctionName}(${3})
+{
+	${0:# code...}
+}]]></content>
+    <tabTrigger>func</tabTrigger>
+    <scope>source.php</scope>
+    <scope>source.php</scope>
+</snippet>

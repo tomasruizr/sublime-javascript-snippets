@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<p> $SELECTION: 
+    <input id='$SELECTION' class='${2:pull-rigth}' value = '<%=$SELECTION%>'></input>
+    <span id="${1:$SELECTION}_valid" class='${3:pull-rigth}'></span>
+</p>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>viewel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

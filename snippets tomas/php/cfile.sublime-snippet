@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${1:description}
+ *
+ * @category ${2:Category}
+ * @package  ${2:Category}
+ * @author   Tomás Ruiz <tomasruizr@gmail.com>
+ * @license  ${3:[url]} ${4:[description]}
+ * @link     ${5:www.grexer.com}
+ */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cfile</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

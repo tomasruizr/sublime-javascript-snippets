@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+(function umd(root,${1:factory}){
+	if(typeof module==='object' && typeof exports === 'object' )
+		module.export=${1:factory}()
+	else if(typeof define==='function' && define.amd)
+		define([],${1:factory})
+	else
+		root.httpVueLoader=${1:factory}()
+})(this,function ${1:factory}() {
+	'use strict'
+	${2}
+})
+]]></content>
+	<tabTrigger>umd</tabTrigger>
+	<scope>source.js</scope>
+	<description>Umd module creation</description>
+</snippet>

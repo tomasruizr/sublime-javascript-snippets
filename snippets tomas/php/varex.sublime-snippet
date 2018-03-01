@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+echo "\\nvariable: ${1}\n";
+echo var_export(\$${1}, true);
+echo "\\n";
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>varex</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${1:Nombre}.php
+ * PHP version 5.5.8
+ *
+ * @category  ${2:Component}
+ * @package   ${3:Components}
+ * @author    Tomás Ruiz <tomasruizr@gmail.com>
+ * @copyright 2014 Grexer.com
+ * @license   http://www.grexer.com/license EULA License
+ * @link      http://www.grexer.com
+ * Contains the ${1:Nombre} Class
+ */
+
+/**
+ * Class ${1:Nombre}
+ *
+ * @category  ${2:Component}
+ * @package   ${3:Components}
+ * @author    Tomás Ruiz <tomasruizr@gmail.com>
+ * @copyright 2014 Grexer.com
+ * @license   http://www.grexer.com/license EULA License
+ * @link      http://www.grexer.com
+ * ${4:descripcion}
+ */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ccomment</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
